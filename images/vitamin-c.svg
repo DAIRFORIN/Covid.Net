@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img" aria-labelledby="title desc">
+<title id="title">Витамин C</title><desc id="desc">Стилизованная упаковка витамина C</desc>
+<rect width="420" height="280" rx="24" fill="#eef8f7"/><rect x="105" y="50" width="210" height="180" rx="16" fill="#fff" stroke="#173f5f" stroke-width="4"/>
+<circle cx="210" cy="110" r="38" fill="#f4a261"/><text x="210" y="121" text-anchor="middle" font-family="Arial" font-size="38" fill="#fff" font-weight="700">C</text>
+<text x="210" y="170" text-anchor="middle" font-family="Arial" font-size="27" fill="#173f5f" font-weight="700">ВИТАМИН C</text><text x="210" y="198" text-anchor="middle" font-family="Arial" font-size="16" fill="#607d8b">таблетки</text></svg>

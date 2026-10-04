@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img" aria-labelledby="title desc">
+<title id="title">Электронный термометр</title><desc id="desc">Стилизованный электронный термометр</desc>
+<rect width="420" height="280" rx="24" fill="#eef8f7"/><rect x="185" y="45" width="50" height="165" rx="25" fill="#fff" stroke="#173f5f" stroke-width="4"/>
+<circle cx="210" cy="205" r="38" fill="#20a39e"/><circle cx="210" cy="205" r="20" fill="#fff"/><rect x="199" y="82" width="22" height="78" rx="10" fill="#dceff0"/><rect x="199" y="125" width="22" height="35" fill="#20a39e"/>
+<text x="210" y="245" text-anchor="middle" font-family="Arial" font-size="18" fill="#173f5f" font-weight="700">ТЕРМОМЕТР</text></svg>
