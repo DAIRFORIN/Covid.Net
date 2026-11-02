@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A pet-first approach to wellness. Thoughtful products and services for happier, healthier pets.">
+	<title>Pet-First — A Pet-First Approach to Wellness</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<script src="js/script.js" defer></script>
+</head>
+<body>
+	<header class="site-header">
+		<div class="header-inner">
+			<a class="brand" href="#home" aria-label="Pet-First home">Pet-First</a>
+			<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Open navigation">
+				<span></span><span></span><span></span>
+			</button>
+			<nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+				<ul>
+					<li><a class="active" href="#about">About</a></li>
+					<li><a href="#services">Service</a></li>
+					<li><a href="#wellness">Madi-Care</a></li>
+					<li><a href="#reviews">Blog</a></li>
+				</ul>
+			</nav>
+			<a class="signup-button" href="#newsletter">Sign up</a>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero" id="home" aria-labelledby="hero-title">
+			<div class="hero-panel" aria-hidden="true"></div>
+			<div class="hero-copy">
+				<p class="hero-kicker">Available in select states</p>
+				<h1 id="hero-title">A pet-first<br>approach to<br>wellness</h1>
+				<a class="button button-orange" href="#about">Learn More</a>
+			</div>
+			<figure class="hero-visual">
+				<img src="images/hero-dog.png" alt="A small brown dog wearing a black hoodie">
+				<figcaption class="visually-hidden">A pet-first approach to wellness</figcaption>
+				<div class="hero-accent" aria-hidden="true"></div>
+				<div class="hero-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+			</figure>
+		</section>
+
+		<section class="stats" id="about" aria-label="Pet categories and community">
+			<div class="stats-paper" aria-hidden="true"></div>
+			<svg class="stats-doodle" viewBox="0 0 150 150" aria-hidden="true">
+				<path d="M-14 4 C18 12 33 30 50 49 C67 68 71 92 93 99 C111 105 127 86 116 69 C108 55 89 57 86 71 C83 87 102 93 117 84 C133 74 134 48 154 34" />
+				<path d="M-4 18 C10 38 14 53 7 70 C0 88 4 105 23 115" />
+			</svg>
+			<div class="stats-inner">
+				<div class="stat-bubble">
+					<svg class="stat-ring" viewBox="0 0 240 240" aria-hidden="true">
+						<defs><path id="ring-path" d="M 120,120 m -93,0 a 93,93 0 1,1 186,0 a 93,93 0 1,1 -186,0"></path></defs>
+						<text><textPath href="#ring-path">Different category · Different category · </textPath></text>
+					</svg>
+					<div class="stat-number">45+</div>
+				</div>
+				<div class="pet-gallery" aria-label="Pets in our community">
+					<img src="images/pet-kitten.jpg" alt="Kitten">
+					<img src="images/pet-blue-bird.jpg" alt="Blue bird">
+					<img src="images/pet-fox.jpg" alt="Fox">
+					<img src="images/pet-cat.jpg" alt="White cat">
+					<img src="images/pet-guinea-pig.jpg" alt="Guinea pig">
+					<img src="images/pet-cockatiel.jpg" alt="Cockatiel">
+					<img src="images/pet-parrot.jpg" alt="Parrot">
+					<img src="images/pet-kitten-grey.jpg" alt="Grey kitten">
+					<img src="images/pet-serval.jpg" alt="Serval cat">
+					<img src="images/pet-hawk.jpg" alt="Hawk">
+					<img src="images/pet-mouse.jpg" alt="Mouse in a sweater">
+					<img src="images/pet-rabbit.jpg" alt="Rabbit">
+					<div class="featured-pet">
+						<p>Dog (JASPER)</p>
+						<img src="images/pet-pug.jpg" alt="Pug wearing a patterned sweater">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services" id="services" aria-labelledby="services-title">
+			<svg class="service-squiggle" viewBox="0 0 300 70" aria-hidden="true">
+				<path d="M2 49 C19 22 39 24 46 43 C52 61 36 64 31 49 C25 30 58 17 72 34 C83 47 65 57 61 42 C57 25 89 18 104 34 C117 48 101 59 96 43 C90 20 126 17 137 34 C148 52 134 61 128 44 C121 22 159 19 171 37 C183 54 166 60 161 45 C155 27 190 18 205 34 C218 48 205 62 198 43 C191 24 227 19 240 37" />
+			</svg>
+			<h2 id="services-title">Our Service</h2>
+			<div class="service-track">
+				<article class="service-card service-pharmacy">
+					<div class="service-icon icon-cream" aria-hidden="true">
+					</div>
+					<h3>Pharmacy</h3>
+					<p>Apoquel is an oral tablet that works differently than other allergy medications. It goes straight to the source to help relieve itch and inflammation at its core—addressing the underlying cause of irritation.</p>
+					<a class="button button-navy" href="#newsletter">Explore</a>
+				</article>
+				<article class="service-card service-grooming">
+					<div class="service-icon icon-yellow" aria-hidden="true">
+					</div>
+					<h3>Breed-specific Haircuts</h3>
+					<p>Regular grooming is essential to your pet's health as it helps prevent skin issues such as matting.</p>
+					<a class="button button-navy" href="#newsletter">Explore</a>
+				</article>
+				<article class="service-card service-clothes">
+					<div class="service-icon icon-yellow" aria-hidden="true">
+					</div>
+					<h3>Cloths</h3>
+					<p>Is your dog at the top of his/her fashion game? Don't forget a dog bikini or swim trunks for your pet's next vacation! Whether poolside, at the beach, or on the yacht, your pooch will look summer-ready.</p>
+					<a class="button button-navy" href="#newsletter">Explore</a>
+				</article>
+			</div>
+		</section>
+
+		<section class="wellness" id="wellness" aria-labelledby="wellness-title">
+			<div class="wellness-photo">
+				<img src="images/family-with-dog.jpg" alt="A woman smiling as she spends time with her dog">
+				<span class="photo-sticker" aria-hidden="true">PET<br>LOVE</span>
+			</div>
+			<div class="wellness-copy">
+				<h2 id="wellness-title">Making pet parenting easy for everyone</h2>
+				<p class="wellness-description">Could this be the dog with the longest tail? The Rampur Greyhound - shy, sensitive, alert, and faithful. This is a breed that has climbed its way to being top dog because of its intelligence.</p>
+				<ul class="wellness-features">
+					<li>Adoption</li>
+					<li>Frozen Raw</li>
+					<li>Next Day Delivery</li>
+				</ul>
+				<a class="button button-navy" href="#services">Explore</a>
+			</div>
+		</section>
+
+		<section class="reviews" id="reviews" aria-labelledby="reviews-title">
+			<div class="review-photo">
+				<img src="images/customer-portrait.jpg" alt="A smiling customer">
+			</div>
+			<div class="review-quote" aria-hidden="true">”</div>
+			<div class="review-ribbon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+			<div class="review-copy">
+				<div class="review-head">
+					<h2 id="reviews-title">Customer Reviews</h2>
+					<img class="review-pet" src="images/newsletter-dog.png" alt="" aria-hidden="true">
+				</div>
+				<p>As we continue to push for better regulation in the Australian pet food industry it can be hard to trust many pet food brands. Our 2021 Best Cat Food in Australia list will offer you a great starting point in deciding what to feed your cat.</p>
+				<div class="review-controls" aria-hidden="true">
+					<span class="control-pill">←</span><span class="control-pill">→</span>
+				</div>
+				<div class="review-pagination" aria-hidden="true"><i class="current"></i><i></i><i></i><i></i><i></i></div>
+			</div>
+		</section>
+
+		<section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+			<div class="newsletter-yellow" aria-hidden="true">
+				<svg class="newsletter-leash" viewBox="0 0 550 164" aria-hidden="true"><path d="M4 85c0-57 112-84 151-29 30 42-13 88-44 61-24-21-3-54 34-47 55 10 63 64 103 70 46 7 64-59 99-58 39 2 56 52 102 48 43-4 60-54 96-51"/></svg>
+			</div>
+			<img class="newsletter-dog" src="images/newsletter-dog.png" alt="A golden retriever sitting attentively">
+			<svg class="newsletter-swirls" viewBox="0 0 190 195" aria-hidden="true"><path d="M165 8c-42 8-55 48-32 71 21 21 51 2 43-22-7-20-31-15-30 1 1 13 21 17 29 5 12-18-7-39-25-35-26 5-33 34-13 54 20 19 49 6 47-18"/><path d="M146 45c-26 19-32 47-14 62 19 15 43-3 34-21-7-14-25-8-22 5"/></svg>
+			<div class="newsletter-copy">
+				<h2 id="newsletter-title">Subscribe &amp; Get Pet Updatenews</h2>
+				<form class="newsletter-form" action="#" method="get">
+					<label class="visually-hidden" for="email-address">Mail</label>
+					<input id="email-address" name="email" type="email" placeholder="Mail" required>
+					<button type="submit" aria-label="Subscribe">&#8594;</button>
+				</form>
+				<p class="form-message" role="status" aria-live="polite"></p>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="footer-inner">
+			<a class="footer-brand" href="#home" aria-label="Pet-First home">Pet-First</a>
+			<nav class="footer-navigation" aria-label="Footer navigation">
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#about">Project</a></li>
+					<li><a href="#services">Service</a></li>
+					<li><a href="#reviews">Client</a></li>
+					<li><a href="#wellness">Team</a></li>
+					<li><a href="#reviews">Blog</a></li>
+					<li><a href="#newsletter">Contact</a></li>
+				</ul>
+			</nav>
+			<p class="copyright">© 2026 Pet-First. All rights reserved.</p>
+		</div>
+	</footer>
+</body>
+</html>
